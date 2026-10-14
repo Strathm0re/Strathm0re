@@ -4,6 +4,11 @@
 
 I build closed-loop experimental systems where **custom automation hardware** — a **6-DoF robotic arm**, an **Opentrons OT-2 liquid handler**, and a **real-time optical microscope** for in-situ reaction monitoring — and **ML / quantum-chemistry models** feed each other: models propose what to make, robots make it, the microscope watches, and the data loops back.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/closed-loop-dark.svg">
+  <img src="./assets/closed-loop-light.svg" alt="Closed-loop autonomous experimentation: ML/QC models propose experiments → 6-DoF robot arm handles plates → OT-2 runs automated synthesis → optical microscope monitors reactions in real time → data feeds back to models" width="100%">
+</picture>
+
 ## 🔬 Research Interests
 
 - **ML-driven materials discovery** — cocrystal prediction, SHAP interpretability, chemical-space exploration
