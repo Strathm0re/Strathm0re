@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="430" viewBox="0 0 1400 430">
+  <defs>
+    <marker id="ah-b" markerWidth="9" markerHeight="8" refX="7.5" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#6CB6FF"/></marker>
+    <marker id="ah-g" markerWidth="9" markerHeight="8" refX="7.5" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#4AC26B"/></marker>
+  </defs>
+  <rect width="1400" height="430" fill="#0D1117"/>
+  <text x="80" y="27" font-family="Helvetica,Arial,sans-serif" font-size="15" font-weight="bold" fill="#E6EDF3">Closed-Loop Autonomous Experimentation</text>
+<path d="M 302,192 L 512,116" fill="none" stroke="#6CB6FF" stroke-width="2.2" marker-end="url(#ah-b)"/>
+<path d="M 722,100 L 1112,100" fill="none" stroke="#6CB6FF" stroke-width="2.2" marker-end="url(#ah-b)"/>
+<path d="M 1220,152 L 1220,276" fill="none" stroke="#6CB6FF" stroke-width="2.2" marker-end="url(#ah-b)"/>
+<path d="M 1118,334 L 728,334" fill="none" stroke="#6CB6FF" stroke-width="2.2" marker-end="url(#ah-b)"/>
+<path d="M 518,318 L 308,242" fill="none" stroke="#4AC26B" stroke-width="2.6" stroke-dasharray="7 5" marker-end="url(#ah-g)"/>
+<text x="382" y="138" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#A8B3BF">experiment proposal</text>
+<text x="920" y="90" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#A8B3BF">load &amp; transfer</text>
+<text x="1234" y="218" text-anchor="start" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#A8B3BF">reaction observed</text>
+<text x="920" y="324" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#A8B3BF">images &amp; metrics</text>
+<text x="430" y="262" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#4AC26B">closed-loop learning</text>
+
+  <g>
+    <rect x="80" y="167" width="200" height="100" rx="14" fill="#211A33" stroke="#B083F0" stroke-width="1.6"/>
+    <circle cx="180.0" cy="203" r="24" fill="#FFFFFF" fill-opacity="0.85" stroke="#B083F0" stroke-width="1.2"/>
+    <g transform="translate(180.0,203)" stroke="#B083F0" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="-9" cy="-10" r="3.2"/><circle cx="-9" cy="0" r="3.2"/><circle cx="-9" cy="10" r="3.2"/>
+      <circle cx="9" cy="-5" r="3.2"/><circle cx="9" cy="5" r="3.2"/>
+      <path d="M-5.8,-10 L5.8,-5 M-5.8,0 L5.8,-5 M-5.8,0 L5.8,5 M-5.8,10 L5.8,5"/>
+    </g>
+    <text x="180.0" y="243" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#E6EDF3">ML / QC Models</text>
+    <text x="180.0" y="259" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#8B949E">propose next experiments</text>
+  </g>
+
+  <g>
+    <rect x="520" y="50" width="200" height="100" rx="14" fill="#16242F" stroke="#6CB6FF" stroke-width="1.6"/>
+    <circle cx="620.0" cy="86" r="24" fill="#FFFFFF" fill-opacity="0.85" stroke="#6CB6FF" stroke-width="1.2"/>
+    <g transform="translate(620.0,86)" stroke="#6CB6FF" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="-13" y="11" width="26" height="4" rx="1.5"/>
+      <circle cx="0" cy="8" r="2.6"/>
+      <path d="M0,8 L-8,-5 L9,-13"/>
+      <path d="M9,-13 l6,-3 M9,-13 l7,2"/>
+    </g>
+    <text x="620.0" y="126" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#E6EDF3">6-DoF Robot Arm</text>
+    <text x="620.0" y="142" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#8B949E">plate &amp; module handling</text>
+  </g>
+
+  <g>
+    <rect x="1120" y="50" width="200" height="100" rx="14" fill="#16242F" stroke="#6CB6FF" stroke-width="1.6"/>
+    <circle cx="1220.0" cy="86" r="24" fill="#FFFFFF" fill-opacity="0.85" stroke="#6CB6FF" stroke-width="1.2"/>
+    <g transform="translate(1220.0,86)" stroke="#6CB6FF" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="-14" y="4" width="28" height="9" rx="1.5"/>
+      <path d="M-6,4 V-9 M6,4 V-9"/>
+      <path d="M-6,-9 h4 M6,-9 h-4" stroke-width="1"/>
+      <path d="M-4,7 h5 M-4,10 h5" stroke-width="0.9"/>
+    </g>
+    <text x="1220.0" y="126" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#E6EDF3">OT-2 Liquid Handler</text>
+    <text x="1220.0" y="142" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#8B949E">automated synthesis</text>
+  </g>
+
+  <g>
+    <rect x="1120" y="284" width="200" height="100" rx="14" fill="#122117" stroke="#4AC26B" stroke-width="1.6"/>
+    <circle cx="1220.0" cy="320" r="24" fill="#FFFFFF" fill-opacity="0.85" stroke="#4AC26B" stroke-width="1.2"/>
+    <g transform="translate(1220.0,320)" stroke="#4AC26B" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="-12" y="12" width="24" height="3.5" rx="1.5"/>
+      <path d="M-5,12 C-10,4 -6,-5 3,-7"/>
+      <path d="M3,-7 L11,-13 M11,-13 l3,-2" stroke-width="2"/>
+      <path d="M-1,-2 L3,7" stroke-width="2"/>
+      <path d="M-6,8 H6" stroke-width="1"/>
+    </g>
+    <text x="1220.0" y="360" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#E6EDF3">Optical Microscope</text>
+    <text x="1220.0" y="376" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#8B949E">real-time in-situ imaging</text>
+  </g>
+
+  <g>
+    <rect x="520" y="284" width="200" height="100" rx="14" fill="#2E2410" stroke="#DBB24C" stroke-width="1.6"/>
+    <circle cx="620.0" cy="320" r="24" fill="#FFFFFF" fill-opacity="0.85" stroke="#DBB24C" stroke-width="1.2"/>
+    <g transform="translate(620.0,320)" stroke="#DBB24C" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <ellipse cx="0" cy="-9" rx="11" ry="4"/>
+      <path d="M-11,-9 V8 a11,4 0 0 0 22,0 V-9"/>
+      <path d="M-11,-1 a11,4 0 0 0 22,0 M-11,4 a11,4 0 0 0 22,0" stroke-width="0.9"/>
+    </g>
+    <text x="620.0" y="360" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#E6EDF3">Experiment Data</text>
+    <text x="620.0" y="376" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#8B949E">images + measurements</text>
+  </g>
+<path d="M 80,410 h 34" stroke="#6CB6FF" stroke-width="2.2" marker-end="url(#ah-b)"/>
+<text x="124" y="414" text-anchor="start" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#8B949E">automation flow</text>
+<path d="M 280,410 h 34" stroke="#4AC26B" stroke-width="2.4" stroke-dasharray="7 5" marker-end="url(#ah-g)"/>
+<text x="324" y="414" text-anchor="start" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#8B949E">data feedback (loop closes)</text>
+</svg>
