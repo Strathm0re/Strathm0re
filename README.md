@@ -2,7 +2,7 @@
 
 **PhD Researcher @ [ShanghaiTech University](https://www.shanghaitech.edu.cn/en/)** — bridging wet-lab chemistry, laboratory automation, and machine learning.
 
-I build closed-loop experimental systems where **liquid-handling robots (Opentrons OT-2)**, **computer vision**, and **ML / quantum-chemistry models** feed each other: models propose what to make, robots make it, cameras observe it, and the data loops back.
+I build closed-loop experimental systems where **custom automation hardware** — a **6-DoF robotic arm**, an **Opentrons OT-2 liquid handler**, and a **real-time optical microscope** for in-situ reaction monitoring — and **ML / quantum-chemistry models** feed each other: models propose what to make, robots make it, the microscope watches, and the data loops back.
 
 ## 🔬 Research Interests
 
@@ -19,7 +19,7 @@ I build closed-loop experimental systems where **liquid-handling robots (Opentro
 
 `Python` `RDKit` `scikit-learn` `XGBoost` `OpenCV`
 
-📄 Preprint: [ChemRxiv](https://chemrxiv.org/engage/chemrxiv/article-details/67b5563581d2151a02131d13)
+📄 **Published**: [*J. Am. Chem. Soc.* **2025**, *147* (49), 45523–45535](https://doi.org/10.1021/jacs.5c16276)
 
 ### ⚛️ [CausalQC-Agent](https://github.com/Strathm0re/causal-agent)
 
